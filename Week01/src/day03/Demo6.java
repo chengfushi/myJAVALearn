@@ -55,4 +55,5 @@ public class Demo6 {
             else System.out.println("the element index is" + mid); break;
         }
     }
+
 }
