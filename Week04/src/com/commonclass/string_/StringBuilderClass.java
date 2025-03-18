@@ -28,16 +28,19 @@ public class StringBuilderClass {
         System.out.println("StringBuffer执行时间：" + new WorkTime(StringBufferWorker).getRunTime());
     }
 }
-
+//定义一个接口，表示要执行的工作
 interface Worker{
     public void work();
 }
+
 class WorkTime{
     long startTime;
     long endTime;
 
+    //采用匿名内部类的形式传入工作
     Worker worker;
 
+    //计算工作的时间
     WorkTime (Worker worker){
         this.worker = worker;
         startTime = System.currentTimeMillis();
