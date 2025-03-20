@@ -1,12 +1,20 @@
 package com.generic_.method;
 
 
+import org.junit.Test;
+
 public class GenericMethod {
     public static void main(String[] args) {
         Person<String,Integer> person = new Person<>("小白",100);
         person.show();
 
     }
+
+    @Test
+    public void test1() {
+        System.out.println("hello");
+    }
+
 }
 
 

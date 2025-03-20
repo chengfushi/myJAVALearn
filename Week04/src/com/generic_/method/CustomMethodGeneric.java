@@ -16,3 +16,4 @@ class Apple<T,R,E> {
         System.out.println(e);
     }
 }
+
