@@ -1,7 +1,6 @@
 package com.generic_.method;
 
 
-import org.junit.Test;
 
 public class GenericMethod {
     public static void main(String[] args) {
@@ -10,10 +9,6 @@ public class GenericMethod {
 
     }
 
-    @Test
-    public void test1() {
-        System.out.println("hello");
-    }
 
 }
 
