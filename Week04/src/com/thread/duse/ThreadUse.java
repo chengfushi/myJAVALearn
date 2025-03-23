@@ -1,6 +1,10 @@
 package com.thread.duse;
 
-
+/**
+ *@Description  Test the multiple thread
+ *@date 2025/3/23 16:33
+ *@auther Chengfu Shi
+ */
 public class ThreadUse {
     public static void main(String[] args) {
         T1 t1 = new T1();
